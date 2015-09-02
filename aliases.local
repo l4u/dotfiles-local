@@ -1,0 +1,19 @@
+alias a='atom .'
+alias b='bundle install'
+alias c='git add -A && git commit -m'
+alias d='pod install'
+alias g='bundle exec guard'
+alias o='open .'
+alias p='git push heroku master'
+alias v='nvim'
+
+alias vi='nvim'
+alias vim='nvim'
+
+alias ro='brew outdated'
+
+alias pb='git push --all bitbucket'
+alias pg='git push --all gitlab'
+alias gd='git diff'
+alias wipe='git add -A && git commit -qm "WIPE SAVEPOINT" && git reset HEAD~1 --hard'
+

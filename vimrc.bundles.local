@@ -1,0 +1,13 @@
+Plug 'editorconfig/editorconfig-vim'
+Plug 'bling/vim-airline'
+Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'airblade/vim-gitgutter'
+Plug 'wakatime/vim-wakatime'
+
+" Rails
+Plug 'tpope/vim-haml'
+
+" Erlang
+Plug 'vim-erlang/vim-erlang-runtime'
+Plug 'elixir-lang/vim-elixir'
+

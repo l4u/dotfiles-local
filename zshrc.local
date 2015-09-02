@@ -1,0 +1,26 @@
+source "$HOME/.slimzsh/slim.zsh"
+
+# NVM
+export NVM_DIR=~/.nvm
+source ~/.nvm/nvm.sh
+
+# Golang
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export GOPATH=$HOME/gopath
+
+# Heroku
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# Others
+
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+j() {
+  local dir
+  dir=$(fasd -Rdl | fzf --no-sort +m) && cd "$dir"
+}
+
+alias latest='function _latest(){ curl -s "https://rubygems.org/api/v1/versions/$1/latest.json" | cut -d"\"" -f 4 };_latest'
+

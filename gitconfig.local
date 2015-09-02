@@ -1,0 +1,15 @@
+[user]
+	name = Leo Lou
+	email = louyuhong@gmail.com
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/leo/.gitignore
+	editor = nvim
+	commentChar = ";"
+[git-up "bundler"]
+	check = true
+[merge]
+	tool = kdiff3
+[heroku]
+	account = personal
