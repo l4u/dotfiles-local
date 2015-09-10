@@ -7,6 +7,9 @@ alias o='open .'
 alias p='git push heroku master'
 alias v='nvim'
 
+alias hkw='heroku accounts:set work'
+alias hkp='heroku accounts:set personal'
+
 alias vi='nvim'
 alias vim='nvim'
 
